@@ -35,6 +35,7 @@ class PermisosSeed extends Seeder
 
         for($i=0; $i< count($permisosCliente) ;$i++){
             $roleCliente->givePermissionTo($permisosCliente[$i]);
+            //
         }
     }
 }
