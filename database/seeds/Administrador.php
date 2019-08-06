@@ -16,7 +16,7 @@ class Administrador extends Seeder
     {
 
 
-
+        //Admin123456 pasword Admin
         $user = User::create([
 
         	'name' => 'Administrador',
